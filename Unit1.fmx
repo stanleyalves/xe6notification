@@ -1,0 +1,85 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 567
+  ClientWidth = 384
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMobile = True
+  DesignerWidth = 384
+  DesignerHeight = 592
+  DesignerDeviceName = 'Google Nexus 4'
+  DesignerOrientation = 0
+  DesignerOSVersion = ''
+  object Button1: TButton
+    Height = 44.000000000000000000
+    Position.X = 48.000000000000000000
+    Position.Y = 24.000000000000000000
+    TabOrder = 4
+    Text = #39340#19978#36890#30693
+    Width = 233.000000000000000000
+    OnClick = Button1Click
+  end
+  object Button2: TButton
+    Height = 44.000000000000000000
+    Position.X = 48.000000000000000000
+    Position.Y = 88.000000000000000000
+    TabOrder = 3
+    Text = #21313#31186#24460#25490#31243#36890#30693
+    Width = 233.000000000000000000
+    OnClick = Button2Click
+  end
+  object Button3: TButton
+    Height = 44.000000000000000000
+    Position.X = 48.000000000000000000
+    Position.Y = 152.000000000000000000
+    TabOrder = 5
+    Text = #21462#28040#25490#31243#36890#30693
+    Width = 233.000000000000000000
+    OnClick = Button3Click
+  end
+  object Button4: TButton
+    Height = 33.000000000000000000
+    Position.X = 48.000000000000000000
+    Position.Y = 208.000000000000000000
+    TabOrder = 6
+    Text = #36890#30693#21152#19978#22519#34892#21205#20316#25353#37397
+    Width = 233.000000000000000000
+    OnClick = Button4Click
+  end
+  object ListView1: TListView
+    ItemAppearanceClassName = 'TListItemAppearance'
+    ItemEditAppearanceClassName = 'TListItemShowCheckAppearance'
+    HeaderAppearanceClassName = 'TListHeaderObjects'
+    FooterAppearanceClassName = 'TListHeaderObjects'
+    Align = Bottom
+    Height = 207.000000000000000000
+    Position.Y = 360.000000000000000000
+    TabOrder = 10
+    Width = 384.000000000000000000
+  end
+  object NotificationCenter1: TNotificationCenter
+    OnReceiveLocalNotification = NotificationCenter1ReceiveLocalNotification
+    Left = 32
+    Top = 224
+  end
+  object KinveyProvider1: TKinveyProvider
+    ApiVersion = '3'
+    AppKey = 'kid_TT3L9S1rIi'
+    AppSecret = '02d3d7ce1ee44104a38685ee20d5e45c'
+    MasterSecret = '3e84a15b85434abe88bd64027961d4be'
+    UserName = 'test1'
+    Password = 'test1'
+    AndroidPush.GCMAppID = '525958201494'
+    Left = 72
+    Top = 368
+  end
+  object PushEvents1: TPushEvents
+    Provider = KinveyProvider1
+    OnPushReceived = PushEvents1PushReceived
+    Left = 184
+    Top = 368
+  end
+end

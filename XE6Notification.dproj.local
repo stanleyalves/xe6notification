@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2014/06/17 14:29:14.000.303,=\\vmware-host\Shared Folders\文件\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2014/06/17 15:27:37.000.313,\\vmware-host\Shared Folders\文件\Embarcadero\Studio\Projects\Unit1.pas=\\vmware-host\Shared Folders\桌面\XE6Notification\Unit1.pas</Transaction>
+    <Transaction>2014/06/17 15:27:37.000.357,\\vmware-host\Shared Folders\文件\Embarcadero\Studio\Projects\Unit1.fmx=\\vmware-host\Shared Folders\桌面\XE6Notification\Unit1.fmx</Transaction>
+    <Transaction>2014/06/17 15:27:50.000.097,\\vmware-host\Shared Folders\文件\Embarcadero\Studio\Projects\Project1.dproj=\\vmware-host\Shared Folders\桌面\XE6Notification\XE6Notification.dproj</Transaction>
+  </Transactions>
+	<MobileDevice>HT0BRHL13970</MobileDevice>
+</BorlandProject>
